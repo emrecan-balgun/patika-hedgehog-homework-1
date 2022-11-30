@@ -20,12 +20,16 @@ function Cards() {
     }, [])
 
   return (
-    <div className="flex flex-wrap">
-    {photos.map(photo => (
-      <CardItem key={photo.id} photo={photo.url} title={photo.title} />
-    ))}
-  </div>
+    <section className="pt-[30px] pb-[10px] bg-[#F3F4F6]">
+        <div className="container">
+            <div className="flex flex-wrap -mx-4">
+                {photos.map(photo => (
+                <CardItem key={photo.id} albumId={photo.albumId} photo={photo.url} title={photo.title} thumbnail={photo.thumbnailUrl} />
+                ))}
+            </div>
+         </div>
+     </section>
   )
 }
 
-export default React.memo(Cards);
+export default Cards;
