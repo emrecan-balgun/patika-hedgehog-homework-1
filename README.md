@@ -1,4 +1,4 @@
-# Patika.dev | Hedgehog Software Solution Homework 1
+# Patika.dev | Hedgehog Software Solution Homework 1 (created by React)
 
 ![Homework-1 Gif](https://media.giphy.com/media/dfKTZRLElQ88oYjnXo/giphy.gif)
 ## Homework Information
